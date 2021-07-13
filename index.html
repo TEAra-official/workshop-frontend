@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- なんの言語のサイトかを指定 -->
+<html lang="ja">
+
+<head>
+    <!-- サイトのタイトルとか（タブに表示されるもの） -->
+    <meta charset="UTF-8">
+    <title>Teara's Sites</title>
+    <link rel="shortcut icon" href="img/teara_icon.png">
+    <!-- 使いたいリソース -->
+    <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div id="root" class="hunachi-theme">
+
+        <header class="mdc-top-app-bar" style="top: 0">
+            <div class="mdc-top-app-bar__row">
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+                    <button id="molcarToolbarButton" class="mdc-button mdc-top-app-bar__action-item toolbar-item"
+                        onclick="location.href='overview.html'">
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">flutter_dash</i>
+                        <span class="mdc-button__label">Overview</span>
+                    </button>
+                    <button id="profileToolbarButton" class="mdc-button mdc-top-app-bar__action-item toolbar-item"
+                        onclick="location.href='/profile/'">
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">groups</i>
+                        <span class="mdc-button__label">Member</span>
+                    </button>
+                    <button id="blogToolbarButton"
+                        class="toolbar-most-right-item mdc-button mdc-top-app-bar__action-item"
+                        onclick="location.href='/blog/'">
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">computer</i>
+                        <span class="mdc-button__label">Blog</span>
+                    </button>
+                </section>
+            </div>
+        </header>
+
+        <div class="mdc-top-app-bar--fixed-adjust center-fit">
+            <div id="title" class="title">
+                <h1 class="title-text">Tearaのホームページ</h1>
+                <img class="title-icon" src="img/teara.png" alt="teara-icon" />
+            </div>
+            <div class="normal-content">これはワークショップ用のサンプルです☆</div>
+            <div class="row_container">
+                <div>Made by </div>
+                <a class="normal-content" href="https://twitter.com/_hunachi">ふなち</a>
+            </div>
+            <a class="normal-content" href="overview.html">簡単なTearaの概要ページは作ってみたので、読みやすいHTMLから始めたい人は参考にしてみてね！</a>
+            <div class="normal-content">テキストや画像追加してみてなのだ🐹</div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script>mdc.autoInit()</script>
+</body>
+
+</html>
