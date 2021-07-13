@@ -24,7 +24,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #1abc9c;
+  --bs-primary: #669b5e;
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -10147,13 +10147,13 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #54d144;
+  color: var(--bs-primary);
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #54d144;
+  color: var(--bs-primary);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10175,11 +10175,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #54d144;
+    background: var(--bs-primary);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #54d144;
+    background: var(--bs-primary);
   }
 
   #mainNav.navbar-shrink {
