@@ -139,6 +139,18 @@ abbr[data-bs-original-title] {
           text-decoration-skip-ink: none;
 }
 
+.normal-text-white {
+  font-size: x-large;
+  color: white;
+  text-align: center !important;
+}
+
+.normal-text-dark {
+  color: #000;
+  font-size: x-large;
+  text-align: center !important;
+}
+
 address {
   margin-bottom: 1rem;
   font-style: normal;
