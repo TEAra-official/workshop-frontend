@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .hunachi-theme {
     --mdc-theme-primary: #693B07;
     --mdc-theme-secondary: #D9E021;
@@ -47,7 +46,11 @@ body {
     width: 40px;
 }
 
-.subcontainer{
+.subsmall-title {
+    margin-top: 16px;
+}
+
+.subcontainer {
     display: flex;
     flex-direction: column;
 }
